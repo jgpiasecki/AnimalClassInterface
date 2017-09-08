@@ -9,6 +9,21 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class Fish {
+public class Fish extends Animal {
+    Boolean isSaltWater;
+    public Fish (String name, Boolean isSaltWater)
+    {
+        super(name);
+        this.isSaltWater = isSaltWater;
+    }
+
+    public Boolean getIsSaltWater() {
+        return isSaltWater;
+    }
+
+    public void setIsSaltWater(Boolean isSaltWater) {
+        this.isSaltWater = isSaltWater;
+    }
+    
     
 }
