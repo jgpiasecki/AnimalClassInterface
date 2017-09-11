@@ -13,7 +13,7 @@ public class Dolphin extends Mammal implements ISwim, IMakeSound{
     String name = "Dolphin";
     double bodyTemp = 98.6;
     
-    public Dolphin(String name, int bodyTemp) {
+    public Dolphin(String name, double bodyTemp) {
         super(name, bodyTemp);
         this.name=name;
         this.bodyTemp=bodyTemp;
@@ -30,6 +30,6 @@ public class Dolphin extends Mammal implements ISwim, IMakeSound{
   @Override
   public void makeSound()
   {
-      System.out.println("The Dolphin screeches.");
+      System.out.println("The Dolphin squeaks.");
   }
 }
