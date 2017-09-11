@@ -29,18 +29,18 @@ public class Eagle extends Bird implements IFly, ISwim, IWalk, IMakeSound{
     @Override
   public void swim()
   {
-      System.out.println("The Ostrich swims.");
+      System.out.println("The Eagle swims.");
   }
   
     @Override
   public void walk()
   {
-      System.out.println("The Ostrich walks");
+      System.out.println("The Eagle walks.");
   }
     
     @Override
   public void makeSound()
   {
-      System.out.println("The Ostrich squacks.");
+      System.out.println("The Eagle screeches.");
   }
 }
