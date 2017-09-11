@@ -9,6 +9,20 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class Mammal {
+public class Mammal extends Animal{
+    int bodyTemp;
+    public Mammal(String name, int bodyTemp)
+    {
+        super(name);
+        this.bodyTemp = bodyTemp;
+    }
+
+    public int getBodyTemp() {
+        return bodyTemp;
+    }
+
+    public void setBodyTemp(int bodyTemp) {
+        this.bodyTemp = bodyTemp;
+    }
     
 }
