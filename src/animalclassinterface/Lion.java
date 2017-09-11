@@ -11,14 +11,10 @@ package animalclassinterface;
  */
 public class Lion extends Mammal implements ISwim, IWalk, IMakeSound{
     
-    String name = "Lion";
-    double bodyTemp = 102.5;
     
     public Lion(String name, double bodyTemp) {
         super(name, bodyTemp);
         
-        this.name=name;
-        this.bodyTemp=bodyTemp;
     }
     
     @Override
