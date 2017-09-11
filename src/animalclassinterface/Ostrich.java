@@ -22,7 +22,24 @@ public class Ostrich extends Bird implements IFly, ISwim, IWalk, IMakeSound {
         
     }
 
+  public void fly()
+  {
+      System.out.println("The Ostrich flys.");
+  }
+  
+  public void swim()
+  {
+      System.out.println("The Ostrich swims.");
+  }
+  
+  public void walk()
+  {
+      System.out.println("The Ostrich walks");
+  }
     
-    
+  public void makeSound()
+  {
+      System.out.println("The Ostrich squacks.");
+  }
     
 }
