@@ -39,7 +39,7 @@ public class Ostrich extends Bird implements ISwim, IWalk, IMakeSound {
     @Override
   public void makeSound()
   {
-      System.out.println("The Ostrich squacks.");
+      System.out.println("The Ostrich hisses.");
   }
     
 }
