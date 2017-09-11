@@ -38,6 +38,6 @@ public class Penguin extends Bird implements ISwim, IWalk, IMakeSound{
     @Override
   public void makeSound()
   {
-      System.out.println("The Penguin squacks.");
+      System.out.println("The Penguin squawks.");
   }
 }
