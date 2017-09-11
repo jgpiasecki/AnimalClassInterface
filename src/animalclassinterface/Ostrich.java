@@ -9,7 +9,7 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class Ostrich extends Bird implements IFly, ISwim, IWalk, IMakeSound {
+public class Ostrich extends Bird implements ISwim, IWalk, IMakeSound {
 
     String name = "Ostrich";
     double wingspan = 6.6;
@@ -22,11 +22,7 @@ public class Ostrich extends Bird implements IFly, ISwim, IWalk, IMakeSound {
         
     }
 
-    @Override
-  public void fly()
-  {
-      System.out.println("The Ostrich flys.");
-  }
+
   
     @Override
   public void swim()
