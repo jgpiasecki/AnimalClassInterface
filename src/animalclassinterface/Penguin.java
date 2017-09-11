@@ -9,7 +9,7 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class Penguin extends Bird implements IFly, ISwim, IWalk, IMakeSound{
+public class Penguin extends Bird implements ISwim, IWalk, IMakeSound{
     String name = "Penguin";
     double wingspan = 6.6;
     
@@ -21,10 +21,7 @@ public class Penguin extends Bird implements IFly, ISwim, IWalk, IMakeSound{
         
     }
 
-  public void fly()
-  {
-      System.out.println("The Penguin flys.");
-  }
+ 
   
   public void swim()
   {
