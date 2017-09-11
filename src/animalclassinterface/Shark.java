@@ -11,12 +11,12 @@ package animalclassinterface;
  */
 public class Shark extends Fish implements ISwim, IMakeSound{
 
-    String name = "Shark";
-    boolean isSaltwater = true;
+    
+    
     public Shark(String name, Boolean isSaltWater) {
         super(name, isSaltWater);
-        this.name = name;
-        this.isSaltwater=isSaltWater;
+        
+        
     }
     
      @Override
