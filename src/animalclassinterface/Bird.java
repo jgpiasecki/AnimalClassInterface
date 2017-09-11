@@ -9,6 +9,22 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class Bird {
+public class Bird extends Animal{
+    double wingspan;
+    
+    public Bird(String name, double wingspan)
+    {
+        super(name);
+        this.wingspan = wingspan;
+    }
+
+    public double getWingspan() {
+        return wingspan;
+    }
+
+    public void setWingspan(int wingspan) {
+        this.wingspan = wingspan;
+    }
+    
     
 }
