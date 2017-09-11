@@ -11,14 +11,10 @@ package animalclassinterface;
  */
 public class Bat extends Mammal implements IFly, ISwim, IWalk, IMakeSound{
     
-    String name = "Bat";
-    double bodyTemp = 105.8;
-    
+ 
     public Bat(String name, double bodyTemp) {
         super(name, bodyTemp);
-        
-        this.name=name;
-        this.bodyTemp=bodyTemp;
+
     }
     
      @Override
