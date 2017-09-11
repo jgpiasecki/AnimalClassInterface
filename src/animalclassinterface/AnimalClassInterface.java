@@ -15,7 +15,15 @@ public class AnimalClassInterface {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Ostrich Tyler = new Ostrich("",6.6);
+        Penguin Caleb = new Penguin("",2.5);
+        Eagle John = new Eagle("",7.5);
+        Dolphin AG = new Dolphin("",98.6);
+        Lion Aiden = new Lion("",102.5);
+        Bat Parker = new Bat("",105.8);
+        Shark Israel = new Shark("",true);
+        Bass Blake = new Bass("",true);
+        FlyingFish Timmy = new FlyingFish("",true);
     }
     
 }
