@@ -10,13 +10,11 @@ package animalclassinterface;
  * @author jpiasecki
  */
 public class Dolphin extends Mammal implements ISwim, IMakeSound{
-    String name = "Dolphin";
-    double bodyTemp = 98.6;
+    
     
     public Dolphin(String name, double bodyTemp) {
         super(name, bodyTemp);
-        this.name=name;
-        this.bodyTemp=bodyTemp;
+        
     }
     
     
