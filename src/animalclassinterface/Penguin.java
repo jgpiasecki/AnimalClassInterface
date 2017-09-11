@@ -10,14 +10,12 @@ package animalclassinterface;
  * @author jpiasecki
  */
 public class Penguin extends Bird implements ISwim, IWalk, IMakeSound{
-    String name = "Penguin";
-    double wingspan = 2.5;
+    
     
     public Penguin(String name, double wingspan) {
         super(name, wingspan);
         
-        this.name=name;
-        this.wingspan=wingspan;
+        
         
     }
 
