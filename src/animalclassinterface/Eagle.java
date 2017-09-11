@@ -11,14 +11,11 @@ package animalclassinterface;
  */
 public class Eagle extends Bird implements IFly, ISwim, IWalk, IMakeSound{
     
-    String name = "Eagle";
-    double wingspan = 7.5;
+    
     
     public Eagle(String name, double wingspan) {
         super(name, wingspan);
         
-        this.name=name;
-        this.wingspan=wingspan;
     }
     
     @Override
