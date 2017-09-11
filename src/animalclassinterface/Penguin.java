@@ -11,7 +11,7 @@ package animalclassinterface;
  */
 public class Penguin extends Bird implements ISwim, IWalk, IMakeSound{
     String name = "Penguin";
-    double wingspan = 6.6;
+    double wingspan = 2.5;
     
     public Penguin(String name, double wingspan) {
         super(name, wingspan);
@@ -23,16 +23,19 @@ public class Penguin extends Bird implements ISwim, IWalk, IMakeSound{
 
  
   
+    @Override
   public void swim()
   {
       System.out.println("The Penguin swims.");
   }
   
+    @Override
   public void walk()
   {
       System.out.println("The Penguin walks");
   }
     
+    @Override
   public void makeSound()
   {
       System.out.println("The Penguin squacks.");
