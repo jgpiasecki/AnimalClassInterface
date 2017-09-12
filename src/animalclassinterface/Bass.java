@@ -9,7 +9,7 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class Bass extends Fish implements ISwim, IMakeSound{
+public class Bass extends Fish implements ISwim{
     
     
     public Bass(String name, Boolean isSaltWater) {
