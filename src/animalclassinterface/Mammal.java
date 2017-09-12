@@ -24,5 +24,12 @@ public class Mammal extends Animal{
     public void setBodyTemp(double bodyTemp) {
         this.bodyTemp = bodyTemp;
     }
+
+    @Override
+    public String toString() {
+        return "Mammal{" + "bodyTemp=" + bodyTemp + '}';
+    }
+    
+    
     
 }
