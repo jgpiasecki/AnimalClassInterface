@@ -9,7 +9,7 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class Shark extends Fish implements ISwim, IMakeSound{
+public class Shark extends Fish implements ISwim{
 
     
     
@@ -25,11 +25,7 @@ public class Shark extends Fish implements ISwim, IMakeSound{
       System.out.println("The Shark swims.");
   }
     
-  @Override
-  public void makeSound()
-  {
-      System.out.println("The Shark makes no sound.");
-  }
+  
     
     
 }
