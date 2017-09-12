@@ -9,7 +9,7 @@ package animalclassinterface;
  *
  * @author jpiasecki
  */
-public class FlyingFish extends Fish implements ISwim, IMakeSound{
+public class FlyingFish extends Fish implements ISwim{
     
    
     public FlyingFish(String name, Boolean isSaltWater) {
@@ -23,9 +23,5 @@ public class FlyingFish extends Fish implements ISwim, IMakeSound{
       System.out.println("The FlyingFish swims.");
   }
     
-  @Override
-  public void makeSound()
-  {
-      System.out.println("The FlyingFish makes no sound.");
-  }
+  
 }
