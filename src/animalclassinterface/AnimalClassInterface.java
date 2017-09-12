@@ -9,7 +9,8 @@ import java.util.ArrayList;
 
 /**
  *
- * @author jpiasecki
+ * @author johnPiasecki
+ * @email jgpie189@outlook.com
  */
 public class AnimalClassInterface {
 
