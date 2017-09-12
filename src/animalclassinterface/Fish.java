@@ -24,6 +24,11 @@ public class Fish extends Animal {
     public void setIsSaltWater(Boolean isSaltWater) {
         this.isSaltWater = isSaltWater;
     }
+
+    @Override
+    public String toString() {
+        return "Fish{" + "isSaltWater=" + isSaltWater + '}';
+    }
     
     
 }
