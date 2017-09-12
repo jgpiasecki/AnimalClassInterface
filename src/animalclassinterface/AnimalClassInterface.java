@@ -17,6 +17,7 @@ public class AnimalClassInterface {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //creates new animals
         Ostrich Tyler = new Ostrich("Tyler",6.6);
         Penguin Caleb = new Penguin("Caleb",2.5);
         Eagle John = new Eagle("John",7.5);
@@ -27,6 +28,7 @@ public class AnimalClassInterface {
         Bass Blake = new Bass("Blake",true);
         FlyingFish Timmy = new FlyingFish("Timmy",true);
         
+        //creates a list for the animals
         ArrayList<Animal> animals = new ArrayList<>();
         
         animals.add(Tyler);
@@ -39,6 +41,7 @@ public class AnimalClassInterface {
         animals.add(Blake);
         animals.add(Timmy);
         
+        //prints out the name of the animals
         for(Animal myAnimal: animals)
         {
             System.out.println(myAnimal.name); 
@@ -46,12 +49,14 @@ public class AnimalClassInterface {
         
         System.out.println("--------------------------------------------------");
         
+        //creates a list for the birds
         ArrayList<Bird> birds = new ArrayList<>();
         
         birds.add(Tyler);
         birds.add(Caleb);
         birds.add(John);
         
+        //prints out the name of each bird and their wingspan
         for(Bird myBird: birds)
         {
             System.out.println(myBird.name + " has a wingspan of "+myBird.wingspan+"feet long.");
@@ -60,12 +65,14 @@ public class AnimalClassInterface {
         
         System.out.println("--------------------------------------------------");
         
+        //creates a list fo the mammals
         ArrayList<Mammal> mammals = new ArrayList<>();
         
         mammals.add(AG);
         mammals.add(Aiden);
         mammals.add(Parker);
         
+        //prints out the name of each mammal and their bodytemps
         for(Mammal myMammal: mammals)
         {
             System.out.println(myMammal.name+" has a body tmperature of "+ myMammal.bodyTemp +"°F."); 
@@ -73,12 +80,14 @@ public class AnimalClassInterface {
         
         System.out.println("--------------------------------------------------");
         
+        //creates a list for the fish
         ArrayList<Fish> fishes = new ArrayList<>();
         
         fishes.add(Israel);
         fishes.add(Blake);
         fishes.add(Timmy);
         
+        //prints out the name and tells us that the fish is a saltwater fish
         for(Fish myFish: fishes)
         {
             System.out.println(myFish.name + " is a saltwater fish.");
@@ -86,6 +95,7 @@ public class AnimalClassInterface {
         
         System.out.println("--------------------------------------------------");
         
+        //creates a list for things that can swim
         ArrayList<ISwim> swimmers = new ArrayList<>();
         
         swimmers.add(AG);
@@ -98,6 +108,7 @@ public class AnimalClassInterface {
         swimmers.add(Blake);
         swimmers.add(Timmy);
         
+        //prints out the swimmers
         for(ISwim swimmer: swimmers)
         {
             swimmer.swim();
@@ -106,11 +117,13 @@ public class AnimalClassInterface {
         
         System.out.println("--------------------------------------------------");
         
+        //creates a list for things that can fly
         ArrayList<IFly> flyers = new ArrayList<>();
 
         flyers.add(John);
         flyers.add(Parker);
        
+        //prints out the flyers
         for(IFly flyer: flyers)
         {
             flyer.fly();
@@ -119,6 +132,7 @@ public class AnimalClassInterface {
         
         System.out.println("--------------------------------------------------");
         
+        //creates a list for things that can walk
         ArrayList<IWalk> walkers = new ArrayList<>();
         
         walkers.add(Tyler);
@@ -127,6 +141,7 @@ public class AnimalClassInterface {
         walkers.add(Aiden);
         walkers.add(Parker);
         
+        //prints out the walkers
         for(IWalk walker: walkers)
         {
             walker.walk();
@@ -134,6 +149,7 @@ public class AnimalClassInterface {
         
         System.out.println("--------------------------------------------------");
         
+        //creates a list for the things that can make a sound
         ArrayList<IMakeSound> soundMakers = new ArrayList<>();
         
         soundMakers.add(Tyler);
@@ -143,6 +159,7 @@ public class AnimalClassInterface {
         soundMakers.add(Aiden);
         soundMakers.add(Parker);
         
+        //prints out the soundMakers
         for(IMakeSound soundMaker: soundMakers)
         {
             soundMaker.makeSound();
