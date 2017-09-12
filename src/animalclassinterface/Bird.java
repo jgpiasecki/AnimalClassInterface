@@ -25,6 +25,11 @@ public class Bird extends Animal{
     public void setWingspan(int wingspan) {
         this.wingspan = wingspan;
     }
+
+    @Override
+    public String toString() {
+        return "Bird{" + "wingspan=" + wingspan + '}';
+    }
     
     
 }
