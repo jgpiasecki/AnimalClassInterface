@@ -23,9 +23,5 @@ public class Bass extends Fish implements ISwim, IMakeSound{
       System.out.println("The Bass swims.");
   }
     
-  @Override
-  public void makeSound()
-  {
-      System.out.println("The Bass makes no sound.");
-  }
+ 
 }
